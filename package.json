@@ -1,1 +1,6 @@
-{"name":"clubhub-web","version":"1.0.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"@vitejs/plugin-react":"^4.3.4","html5-qrcode":"^2.3.8","lucide-react":"^0.468.0","qrcode":"^1.5.4","react":"^18.3.1","react-dom":"^18.3.1","react-router-dom":"^7.1.1","vite":"^6.0.7"},"devDependencies":{}}
+{
+  "name": "clubhub-api", "version": "1.0.0", "type": "module",
+  "scripts": {"dev": "nodemon index.js", "start": "node index.js"},
+  "dependencies": {"bcryptjs": "^2.4.3", "better-sqlite3": "^11.8.1", "cors": "^2.8.5", "express": "^4.21.2", "jsonwebtoken": "^9.0.2", "pdfkit": "^0.16.0", "qrcode": "^1.5.4"},
+  "devDependencies": {"nodemon": "^3.1.9"}
+}
